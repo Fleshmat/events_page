@@ -72,7 +72,7 @@ nav li:first-child{
 }
 
 nav img {
-  width: 10rem;
+  width: 17rem;
 }
 
 @media (min-width: 850px){
@@ -90,16 +90,37 @@ nav img {
 /* body */
 
 .page {
-  padding: 4rem 2rem 6rem 2rem;
+  padding-bottom: 6rem;
 }
 
 #intro {
   padding-bottom: 4rem;
+  background-image: url("../img/party.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 40rem;
+  position: relative;
+}
+
+#intro h1, #intro p {
+    padding: 0rem 4rem 0rem 4rem;
 }
 
 #intro h1 {
   font-size: 2.5rem;
   font-family: var(--mono);
+  padding-top: 10rem;
+  text-shadow: 0px 0px 0 rgb(230,230,230),1px 1px 0 rgb(204,204,204),2px 2px 0 rgb(179,179,179),3px 3px 0 rgb(153,153,153),4px 4px 0 rgb(128,128,128),5px 5px 0 rgb(102,102,102),6px 6px 0 rgb(77,77,77),7px 7px 0 rgb(51,51,51),8px 8px 0 rgb(26,26,26),9px 9px 0 rgb(0,0,0), 10px 10px 0 rgb(-25,-25,-25),11px 11px 10px rgba(0,0,0,0.3),11px 11px 1px rgba(0,0,0,0.5),0px 0px 10px rgba(0,0,0,.2);
+}
+
+#intro p {
+    font-size: 1.5rem;
+    text-shadow: 0px 0px 0 rgb(191,191,191),1px 1px 0 rgb(128,128,128),2px 2px 0 rgb(64,64,64),3px 3px 0 rgb(0,0,0), 4px 4px 0 rgb(-64,-64,-64),5px 5px 4px rgba(0,0,0,0.3),5px 5px 1px rgba(0,0,0,0.5),0px 0px 4px rgba(0,0,0,.2);
+}
+
+#intro a {
+    margin-left: 4rem;
 }
 
 .button {
